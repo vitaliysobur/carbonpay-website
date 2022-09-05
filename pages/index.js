@@ -28,6 +28,10 @@ export default function Home() {
         <div className={s.content}>
           <h1 className={s.title}><span className={s.white}>carbon</span><span className={s.orange}>Pay</span></h1>
           <h2 className={s.subTitle}><span className={s.white}>Fight climate change by doing what you do best</span></h2>
+          <ul className={s.socialIconsSection}>
+            <li className={s.socialIcon}><a href="#twitter"><Image src="/twitter.svg" width="100" height="100"></Image></a></li>
+            <li className={s.socialIcon}><a href="#github"><Image src="/github.svg" width="100" height="100"></Image></a></li>
+          </ul>
         </div>
       </main>
     </div>

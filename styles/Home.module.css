@@ -102,6 +102,17 @@
   color: #EEC04B;
 }
 
+.socialIconsSection {
+  display: flex;
+  margin: 30px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socialIcon {
+  margin-right: 50px;
+}
+
 @media (max-width: 1115px) {
   .btnSection {
     flex-direction: row;
